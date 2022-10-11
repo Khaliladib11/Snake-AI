@@ -1,0 +1,6 @@
+# Requirements file
+# Usage: pip install -r requirements.txt
+
+torch==1.10.0
+numpy==1.21.5
+pygame==2.1.2
