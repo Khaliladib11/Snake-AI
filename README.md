@@ -28,5 +28,10 @@ After that we can test the snake game:
 python run.py --greedy --doubleDQN --UI
 ```
 
+Or you use Docker:
+```bash
+docker build -t snake-image
+docker run --rm --name snake-container snake-image
+```
 ![Screenshot 2022-10-11 083329](https://user-images.githubusercontent.com/73353537/195024553-5ece76a5-a873-4fd0-9727-159540c5ee4b.jpg)
 
