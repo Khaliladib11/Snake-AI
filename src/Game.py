@@ -31,7 +31,7 @@ class SnakeGameAI:
     def __init__(self, width=640, height=480, block_size=20,
                  UI=False,
                  game_speed=100, window_title="RL Snake",
-                 rat_reset_seeds=np.random.randint(0,100000,size=1000)
+                 rat_reset_seeds=np.random.randint(0,100000,size=100000)
                 ):
         """
         AI Snake Game Environment
