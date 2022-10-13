@@ -25,7 +25,7 @@ pip install -r requirements.txt
 After that we can test the snake game:
 
 ```bash
-python run.py --greedy --doubleDQN --weights 'model/dqn_model.pth' --UI
+python run.py --greedy --doubleDQN --UI
 ```
 
 ![Screenshot 2022-10-11 083329](https://user-images.githubusercontent.com/73353537/195024553-5ece76a5-a873-4fd0-9727-159540c5ee4b.jpg)
